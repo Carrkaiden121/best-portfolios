@@ -1,14 +1,16 @@
-const carousels = document.querySelectorAll('.carousel');
+document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.carousel');
 
-carousels.forEach(carousel => {
-    const images = carousel.querySelectorAll('.carousel-image');
-    let currentIndex = 0;
+    carousels.forEach(carousel => {
+        const images = carousel.querySelectorAll('.carousel-image');
+        let currentIndex = 0;
 
-    setInterval(() => {
-        images[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % images.length;
-        images[currentIndex].classList.add('active');
-    }, 3000);
+        setInterval(() => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }, 3000);
+    });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
