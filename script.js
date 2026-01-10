@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let settingsNav = null;
         
         allLinks.forEach(link => {
-            if (link.innerHTML.includes('fa-cog')) {
+            if (link && link.innerHTML && link.innerHTML.includes('fa-cog')) {
                 settingsNav = link;
             }
         });
@@ -189,24 +189,32 @@ document.addEventListener('DOMContentLoaded', () => {
         if (settingsNav) {
             settingsNav.addEventListener('click', (e) => {
                 e.preventDefault();
-                dropdownMenu.classList.toggle('active');
+                if (dropdownMenu) {
+                    dropdownMenu.classList.toggle('active');
+                }
             });
         }
     }
     
-    document.addEventListener('click', (e) => {
-        const dropdown = document.querySelector('.nav-dropdown');
-        if (dropdown && !dropdown.contains(e.target)) {
-            dropdownMenu.classList.remove('active');
-        }
-    });
+    const dropdown = document.querySelector('.nav-dropdown');
+    if (dropdown) {
+        document.addEventListener('click', (e) => {
+            if (!dropdown.contains(e.target)) {
+                const menu = dropdown.querySelector('.dropdown-menu');
+                if (menu) {
+                    menu.classList.remove('active');
+                }
+            }
+        });
+    }
     
     const accessibilityLink = document.querySelector('[data-accessibility]');
     if (accessibilityLink) {
         accessibilityLink.addEventListener('click', (e) => {
             e.preventDefault();
             alert('Accessibility options would be displayed here. Features may include: font size, high contrast mode, screen reader support, etc.');
-            dropdownMenu.classList.remove('active');
+            const menu = document.querySelector('.dropdown-menu');
+            if (menu) menu.classList.remove('active');
         });
     }
     
@@ -215,7 +223,8 @@ document.addEventListener('DOMContentLoaded', () => {
         themeLink.addEventListener('click', (e) => {
             e.preventDefault();
             alert('Theme options would be displayed here. Options may include: dark mode, light mode, custom colors, etc.');
-            dropdownMenu.classList.remove('active');
+            const menu = document.querySelector('.dropdown-menu');
+            if (menu) menu.classList.remove('active');
         });
     }
 });
