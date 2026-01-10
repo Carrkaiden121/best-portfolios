@@ -15,6 +15,30 @@ const portfolios = [
         image: "./assets/images/profile-antony-hallick.png",
         tags: ["Manufacturing", "Aluminium", "Technical", "Operations"],
         portfolioUrl: "Antony_Hallick.html"
+    },
+    {
+        name: "Mason",
+        title: "Discord Design Expert",
+        bio: "Ensuring YOUR discord servers are what you need. Top Qualities, Cheap Prices. Specializing in community, design, department, and content creation.",
+        image: "./assets/images/profile-mason.png",
+        tags: ["Discord", "Design", "Community"],
+        portfolioUrl: "Mason.html"
+    },
+    {
+        name: "Dudwig",
+        title: "Design Specialist",
+        bio: "Creative designer specializing in clothing design and Discord embeds with innovative design solutions.",
+        image: "./assets/images/profile-dudwig.png",
+        tags: ["Design", "Clothing", "Embeds"],
+        portfolioUrl: "Dudwig.html"
+    },
+    {
+        name: "Leo Sicolo",
+        title: "IT Professional & 3D Printing Enthusiast",
+        bio: "Passionate about IT field and 3D printing. Experienced in IT work and camp counseling with relevant qualifications.",
+        image: "./assets/images/profile-leo-sicolo.png",
+        tags: ["IT", "3D Printing", "Technology"],
+        portfolioUrl: "Leo_Sicolo.html"
     }
 ];
 
