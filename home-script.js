@@ -6,7 +6,7 @@ const portfolios = [
         bio: "Passionate about building web applications with modern technologies.",
         image: "./assets/images/profile-kaiden-carr.png",
         tags: ["JavaScript", "Python", "React", "HTML", "CSS"],
-        portfolioUrl: "1092489655888379915.html"
+        portfolioUrl: "carrkaiden1212.html"
     },
     {
         name: "Antony Hallick",
@@ -122,3 +122,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
