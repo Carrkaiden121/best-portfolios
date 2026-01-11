@@ -863,10 +863,10 @@ section {
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 15px 20px;
+    padding: 20px 25px;
     border: 1px solid var(--border-color);
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 12px;
+    font-size: 18px;
     font-family: inherit;
     background: rgba(31, 41, 55, 0.5);
     color: var(--text-dark);
@@ -888,6 +888,9 @@ section {
     width: 100%;
     background: var(--primary-color);
     color: white;
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 12px;
 }
 
 .contact-form .btn-primary:hover {
