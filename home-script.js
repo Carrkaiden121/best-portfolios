@@ -6,7 +6,7 @@ const portfolios = [
         bio: "Passionate about building web applications with modern technologies.",
         image: "./assets/images/profile-kaiden-carr.png",
         tags: ["JavaScript", "Python", "React", "HTML", "CSS"],
-        portfolioUrl: "carrkaiden1212.html"
+        portfolioUrl: "portfolios/carrkaiden1212.html"
     },
     {
         name: "Antony Hallick",
@@ -14,7 +14,7 @@ const portfolios = [
         bio: "Professional with extensive experience across multiple industries including roofline products, aluminium manufacturing, and furniture.",
         image: "./assets/images/profile-antony-hallick.png",
         tags: ["Manufacturing", "Aluminium", "Technical", "Operations"],
-        portfolioUrl: "Antony_Hallick.html"
+        portfolioUrl: "portfolios/Antony_Hallick.html"
     },
     {
         name: "Mason",
@@ -22,7 +22,7 @@ const portfolios = [
         bio: "Ensuring YOUR discord servers are what you need. Top Qualities, Cheap Prices. Specializing in community, design, department, and content creation.",
         image: "./assets/images/profile-mason.png",
         tags: ["Discord", "Design", "Community"],
-        portfolioUrl: "Mason.html"
+        portfolioUrl: "portfolios/Mason.html"
     },
     {
         name: "Dudwig",
@@ -30,7 +30,7 @@ const portfolios = [
         bio: "Creative designer specializing in clothing design and Discord embeds with innovative design solutions.",
         image: "./assets/images/profile-dudwig.png",
         tags: ["Design", "Clothing", "Embeds"],
-        portfolioUrl: "Dudwig.html"
+        portfolioUrl: "portfolios/Dudwig.html"
     },
     {
         name: "Leo Sicolo",
@@ -38,7 +38,15 @@ const portfolios = [
         bio: "Passionate about IT field and 3D printing. Experienced in IT work and camp counseling with relevant qualifications.",
         image: "./assets/images/profile-leo-sicolo.png",
         tags: ["IT", "3D Printing", "Technology"],
-        portfolioUrl: "Leo_Sicolo.html"
+        portfolioUrl: "portfolios/Leo_Sicolo.html"
+    },
+    {
+        name: "yescat",
+        title: "Design Specialist",
+        bio: "Design specialist with extensive experience moderating 5+ servers and building 2 successful Discord communities from the ground up.",
+        image: "./assets/images/profile-yescat.png",
+        tags: ["Discord", "Design", "Leadership"],
+        portfolioUrl: "portfolios/yescat.html"
     }
 ];
 
@@ -122,4 +130,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
