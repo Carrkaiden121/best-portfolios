@@ -47,6 +47,14 @@ const portfolios = [
         image: "./assets/images/profile-yescat.png",
         tags: ["Discord", "Design", "Leadership"],
         portfolioUrl: "portfolios/yescat.html"
+    },
+    {
+        name: "myfloweralla",
+        title: "Designer & Creative Experimenter",
+        bio: "I enjoy designing and experimenting with new things. Creating and discovering new possibilities is what motivates me the most.",
+        image: "./assets/images/profile-myfloweralla.png",
+        tags: ["Design", "Creative", "Discord"],
+        portfolioUrl: "portfolios/myfloweralla.html"
     }
 ];
 
