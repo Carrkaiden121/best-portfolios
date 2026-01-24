@@ -55,6 +55,14 @@ const portfolios = [
         image: "./assets/images/profile-myfloweralla.png",
         tags: ["Design", "Creative", "Discord"],
         portfolioUrl: "portfolios/myfloweralla.html"
+    },
+    {
+        name: "FluffyChick458",
+        title: "Server Owner & Community Manager",
+        bio: "Experienced server owner and community manager with a proven track record of building and maintaining successful Discord communities.",
+        image: "./assets/images/profile-fluffy.png",
+        tags: ["Server Owner", "Management", "Community"],
+        portfolioUrl: "portfolios/FluffyChick458.html"
     }
 ];
 
